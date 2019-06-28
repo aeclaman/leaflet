@@ -5,6 +5,7 @@ var map = L.map("map", {
 });
 
 var API_KEY = process.env.API_KEY;
+console.log("Reading API_KEY from environmental variable: " + API_KEY);
 
 // Adding tile layers
 var greyscale = L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}", {
