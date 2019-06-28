@@ -78,7 +78,6 @@ d3.json(link, function(data) {
       for (var i = 0; i < labels.length; i++) {
         list_elements.push("<li style=\"background-color: " + colors[i] + "\"></li>  " + labels[i] + "<br>");
       }
-      list_elements.push("<li><i>Amy Claman </i></li>")//Add name to html per hw instructions
       div.innerHTML += "<ul>" + list_elements.join("") + "</ul>";
       return div;
   }
